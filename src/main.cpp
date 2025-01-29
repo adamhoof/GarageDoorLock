@@ -45,7 +45,7 @@ void configureDriver()
     driver.en_spreadCycle(false);
     driver.pwm_autoscale(true);
     driver.TCOOLTHRS(0xFFFFF);
-    driver.SGTHRS(10);
+    driver.SGTHRS(1);
 }
 
 void configurePins()
